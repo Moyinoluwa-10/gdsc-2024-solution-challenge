@@ -22,15 +22,15 @@ const Header = () => {
 
   return (
     <>
-      <header className="bg-transparent text-black md:container py-0 px-10 sm:px-24 relative z-50">
-        <div className="container flex items-center justify-between">
+      <header className="bg-transparent text-black z-50 fixed top-0 left-0 w-full">
+        <div className="container flex items-center justify-between px-10 sm:px-24">
           <div>
             <Link to={"/"}>
-              <img src={logo} alt="logo" className="h-20" />
+              <img src={logo} alt="logo" className="h-16" />
             </Link>
           </div>
 
-          <ul className="list-none items-center gap-6 font-pt-bold text-xl uppercase flex">
+          <ul className="list-none items-center gap-6 flex">
             <li>
               <NavLink
                 to={"/"}
@@ -69,8 +69,10 @@ const Header = () => {
             </li>
           </ul>
 
-          <div className="lg:flex hidden text-lg">
-            <button>Log In</button>
+          <div className="lg:flex hidden">
+            <button className="relative py-2 px-16 inline-block overflow-hidden bg-secondary rounded-full text-white bg-black border border-black">
+              Log In
+            </button>
           </div>
 
           <div className="block lg:hidden">

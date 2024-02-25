@@ -3,7 +3,7 @@ import Header from "../components/Header";
 const Home = () => {
   return (
     <>
-      <section className="hero min-h-screen">
+      <section className="hero min-h-screen pt-24">
         <Header />
         <div>
           <h1>Empowering Healthcare</h1>

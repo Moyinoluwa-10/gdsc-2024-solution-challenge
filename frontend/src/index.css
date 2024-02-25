@@ -13,3 +13,17 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .nav-link {
+    @apply text-black relative before:bg-black before:absolute before:h-[2px] before:block before:left-0 before:-bottom-[2px] before:w-0 hover:before:w-full before:transition-all before:duration-300;
+  }
+
+  .nav-link--2 {
+    @apply text-white relative before:bg-white before:absolute before:h-[2px] before:block before:left-0 before:-bottom-[2px] before:w-0 hover:before:w-full before:transition-all before:duration-300;
+  }
+
+  .footer-link {
+    @apply text-base text-white relative before:bg-white before:absolute before:h-[2px] before:block before:left-0 before:-bottom-[2px] before:w-0 hover:before:w-full before:transition-all before:duration-300;
+  }
+}
+
