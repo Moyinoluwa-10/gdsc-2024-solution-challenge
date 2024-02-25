@@ -86,74 +86,43 @@ const Home = () => {
         </section>
       </div>
 
-      <section className="container p-5 py-20 text-center">
+      <section className="container p-5 py-20">
         <h3 className="text-3xl mb-10">Testimonials</h3>
-        <p className="text-2xl mb-10">
-          MediSync has provided our hospital with clean energy solutions.Their
-          commitment to sustainability is impressive
-        </p>
 
-        <div className="grid md:grid-cols-3">
-          <div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
-              mollitia iste nesciunt sit sapiente vero delectus assumenda qui
-              facilis. Omnis, non rem quae quasi harum porro ipsa. Adipisci in
-              doloribus officia harum consequuntur rerum mollitia debitis ipsam
-              dolorem facere aliquam ipsum, ipsa eos accusantium iusto. Dolorum
-              vitae, rem odit in fuga voluptates fugit, minima natus iste
-              cupiditate labore? Saepe, dolore a? Sint assumenda quidem fugit
-              totam impedit dolores. Dolorum reiciendis nihil accusamus nesciunt
-              ea possimus culpa exercitationem molestiae nemo illo recusandae
-              quas aperiam quae id molestias eligendi ut suscipit eos ducimus
-              aspernatur, impedit laudantium corrupti. Adipisci voluptatem
-              facere deleniti praesentium!
+        <div className="grid md:grid-cols-3 gap-20">
+          <div className="bg-gray-100 p-10">
+            <p className="text-lg mb-5">
+              A game-changer for our hospital in India! Costs down, efficiency
+              up. Real-time monitoring is a game-saver. Patients get
+              uninterrupted care. Efficient resource use
             </p>
-            <p>CEO, Deka Medical Center</p>
+            <p className="font-semibold text-right"> - Mr. Patel</p>
           </div>
 
-          <div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
-              mollitia iste nesciunt sit sapiente vero delectus assumenda qui
-              facilis. Omnis, non rem quae quasi harum porro ipsa. Adipisci in
-              doloribus officia harum consequuntur rerum mollitia debitis ipsam
-              dolorem facere aliquam ipsum, ipsa eos accusantium iusto. Dolorum
-              vitae, rem odit in fuga voluptates fugit, minima natus iste
-              cupiditate labore? Saepe, dolore a? Sint assumenda quidem fugit
-              totam impedit dolores. Dolorum reiciendis nihil accusamus nesciunt
-              ea possimus culpa exercitationem molestiae nemo illo recusandae
-              quas aperiam quae id molestias eligendi ut suscipit eos ducimus
-              aspernatur, impedit laudantium corrupti. Adipisci voluptatem
-              facere deleniti praesentium!
+          <div className="bg-gray-100 p-10">
+            <p className="text-lg mb-5">
+              Our clinic in Kenya runs smoothly with the clean energy platform.
+              Reliable power means top-notch care for our community. Affordable
+              and a financial relief for us. We are Grateful for the positive
+              change!
             </p>
-            <p>CEO, Deka Medical Center</p>
+            <p className="font-semibold text-right"> - Dr. Amina</p>
           </div>
 
-          <div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
-              mollitia iste nesciunt sit sapiente vero delectus assumenda qui
-              facilis. Omnis, non rem quae quasi harum porro ipsa. Adipisci in
-              doloribus officia harum consequuntur rerum mollitia debitis ipsam
-              dolorem facere aliquam ipsum, ipsa eos accusantium iusto. Dolorum
-              vitae, rem odit in fuga voluptates fugit, minima natus iste
-              cupiditate labore? Saepe, dolore a? Sint assumenda quidem fugit
-              totam impedit dolores. Dolorum reiciendis nihil accusamus nesciunt
-              ea possimus culpa exercitationem molestiae nemo illo recusandae
-              quas aperiam quae id molestias eligendi ut suscipit eos ducimus
-              aspernatur, impedit laudantium corrupti. Adipisci voluptatem
-              facere deleniti praesentium!
+          <div className="bg-gray-100 p-10">
+            <p className="text-lg mb-5">
+              In our Nigeria maternity ward, clean energy means safe care.
+              Devices run non-stop. Moms and babies are safer. The platform is a
+              relief, letting us focus on great patient care. We sincerely
+              appreciate the positive impact of MediSync
             </p>
-            <p>CEO, Deka Medical Center</p>
+            <p className="font-semibold text-right"> - Nurse Ayo</p>
           </div>
         </div>
       </section>
 
       <section className="container p-5 py-20">
-        <p className="text-center font-medium text-3xl mb-10">
-          In Collaboration with
-        </p>
+        <p className="ont-medium text-3xl mb-10">In Collaboration with</p>
         <div className="flex items-center justify-center gap-5">
           <img src={collab1} alt="" className="w-40" />
           <img src={collab2} alt="" className="w-40" />
