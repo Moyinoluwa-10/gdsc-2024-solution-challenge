@@ -1,5 +1,13 @@
+import Header from "../components/Header";
+
 const Home = () => {
-  return <div>Home</div>;
+  return (
+    <>
+      <section className="hero min-h-screen">
+        <Header />
+      </section>
+    </>
+  );
 };
 
 export default Home;
