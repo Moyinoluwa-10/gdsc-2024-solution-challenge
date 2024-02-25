@@ -9,7 +9,7 @@ import { Sling as Hamburger } from "hamburger-react";
 // import Button from "./Button";
 
 // images
-// import logo from "../assets/images/logo.png";
+import logo from "../assets/images/logo.png";
 import { useState } from "react";
 
 const Header = () => {
@@ -22,14 +22,11 @@ const Header = () => {
 
   return (
     <>
-      <header className="bg-transparent text-white md:container py-5 px-10 sm:px-24 relative z-50">
+      <header className="bg-transparent text-black md:container py-0 px-10 sm:px-24 relative z-50">
         <div className="container flex items-center justify-between">
           <div>
             <Link to={"/"}>
-              {/* <img src={logo} alt="logo" className="w-10" /> */}
-              <p>
-                <b>ProductName</b>
-              </p>
+              <img src={logo} alt="logo" className="h-20" />
             </Link>
           </div>
 
