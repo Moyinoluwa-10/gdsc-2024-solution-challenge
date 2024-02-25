@@ -70,7 +70,7 @@ const Header = () => {
           </ul>
 
           <div className="lg:flex hidden">
-            <button className="relative py-2 px-16 inline-block overflow-hidden bg-secondary rounded-full text-white bg-black border border-black">
+            <button className="relative py-2 px-16 inline-block overflow-hidden rounded-full text-white bg-black border border-black">
               Log In
             </button>
           </div>
