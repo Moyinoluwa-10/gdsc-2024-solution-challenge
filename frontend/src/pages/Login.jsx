@@ -3,16 +3,19 @@ import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 // import { useDispatch } from "react-redux";
 // import { loginUser } from "../redux/feature/authSlice";
-//icons
 import { FcGoogle } from "react-icons/fc";
 import { FaRegEye, FaRegEyeSlash } from "react-icons/fa6";
+
+// images
+import logo from "../assets/images/logo.png";
+
 // forms
 import { useFormik } from "formik";
 import * as Yup from "yup";
+
 // firebase
 import { auth, googleProvider } from "../config/firebase";
 import { signInWithEmailAndPassword, signInWithPopup } from "firebase/auth";
-import logo from "../assets/images/logo.png";
 
 const Login = () => {
   const [error, setError] = useState("");
@@ -29,7 +32,7 @@ const Login = () => {
     try {
       await signInWithEmailAndPassword(auth, email, password);
       // dispatch(loginUser(auth.currentUser));
-      navigate("/catalog");
+      navigate("/dashboard");
     } catch (error) {
       console.log(error);
       if (error.code === "auth/invalid-credential") {
@@ -42,7 +45,7 @@ const Login = () => {
     try {
       await signInWithPopup(auth, googleProvider);
       // dispatch(loginUser(auth.currentUser));
-      // navigate("/catalog");
+      navigate("/dashboard");
     } catch (error) {
       console.log(error);
     }
@@ -68,13 +71,13 @@ const Login = () => {
 
   return (
     <>
-      <header className="container">
+      <header className="container border-b">
         <Link to={"/"}>
           <img src={logo} alt="logo" className="h-24" />
         </Link>
       </header>
 
-      <section className="grid min-h-screen place-items-center px-5 py-10">
+      <section className="container grid place-items-center p-5 mt-20 mb-10">
         <div className="max-w-md w-full p-6 bg-white rounded-md">
           <h1 className="font-semibold text-2xl mb-2">Login</h1>
           <p className="font-medium mb-10">Hi, Welcome back👋</p>
@@ -89,7 +92,13 @@ const Login = () => {
                 <span className="text-base">Login With Google</span>
               </button>
             </div>
-            <p className="text-center text-[13px] mb-5">Or login with Email</p>
+            <div className="flex justify-center items-center gap-5 mb-5 text-center">
+              <div className="bg-gray-400 h-[1px] w-full hidden md:block"></div>
+              <p className="text-center text-[13px] whitespace-nowrap">
+                Or login with Email
+              </p>
+              <div className="bg-gray-400 h-[1px] w-full hidden md:block"></div>
+            </div>
           </div>
           <div>
             <form onSubmit={formik.handleSubmit}>

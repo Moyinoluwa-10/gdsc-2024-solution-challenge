@@ -10,9 +10,11 @@ import Contact from "./pages/Contact";
 import Error from "./pages/Error";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
+import Dashboard from "./pages/Dashboard";
 
 // framer-motion
 import { AnimatePresence } from "framer-motion";
+import Signup from "./pages/Signup";
 
 function App() {
   const location = useLocation();
@@ -25,6 +27,8 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<Signup />} />
+          <Route path="/dashboard" element={<Dashboard />} />
           <Route path="*" element={<Error />} />
         </Routes>
       </AnimatePresence>
