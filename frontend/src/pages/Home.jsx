@@ -59,7 +59,7 @@ const Home = () => {
         </p>
       </section>
 
-      <div className="bg-[#caecc9]">
+      <div className="bg-secondary text-white">
         <section className="container p-5 py-20">
           <h3 className="text-3xl mb-10">Our Services</h3>
           <div className="grid md:grid-cols-2 gap-10">
