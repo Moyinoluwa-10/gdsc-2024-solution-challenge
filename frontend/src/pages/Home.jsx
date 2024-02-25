@@ -9,6 +9,7 @@ import collab2 from "../assets/images/collab-2.jpg";
 import collab3 from "../assets/images/collab-3.jpg";
 import collab4 from "../assets/images/collab-4.png";
 import collab5 from "../assets/images/collab-5.jpg";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -161,6 +162,8 @@ const Home = () => {
           <img src={collab5} alt="" className="w-40" />
         </div>
       </section>
+
+      <Footer />
     </>
   );
 };
