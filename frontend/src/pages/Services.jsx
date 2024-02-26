@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import SideBar from "../components/dashboard/Sidebar";
 
 const Services = () => {
@@ -22,9 +23,12 @@ const Services = () => {
                 improving patient care and outcomes.
               </p>
 
-              <button className="py-3 px-6 z-0 inline-block overflow-hidden bg-primary rounded-md text-white relative border border-transparent hover:border-primary hover:text-primary transition-all duration-300 before:absolute before:block before:top-0 before:-left-[100%] before:w-full before:h-full before:bg-white before:-z-10 hover:before:left-0 before:transition-all before:duration-300">
+              <Link
+                to={"/dashboard/book"}
+                className="py-3 px-6 z-0 inline-block overflow-hidden bg-primary rounded-md text-white relative border border-transparent hover:border-primary hover:text-primary transition-all duration-300 before:absolute before:block before:top-0 before:-left-[100%] before:w-full before:h-full before:bg-white before:-z-10 hover:before:left-0 before:transition-all before:duration-300"
+              >
                 Book Now
-              </button>
+              </Link>
             </div>
 
             <div className="p-5 bg-gray-100">
@@ -41,9 +45,12 @@ const Services = () => {
                 health and well-being of communities served by these facilities.
               </p>
 
-              <button className="py-3 px-6 z-0 inline-block overflow-hidden bg-primary rounded-md text-white relative border border-transparent hover:border-primary hover:text-primary transition-all duration-300 before:absolute before:block before:top-0 before:-left-[100%] before:w-full before:h-full before:bg-white before:-z-10 hover:before:left-0 before:transition-all before:duration-300">
+              <Link
+                to={"/dashboard/book"}
+                className="py-3 px-6 z-0 inline-block overflow-hidden bg-primary rounded-md text-white relative border border-transparent hover:border-primary hover:text-primary transition-all duration-300 before:absolute before:block before:top-0 before:-left-[100%] before:w-full before:h-full before:bg-white before:-z-10 hover:before:left-0 before:transition-all before:duration-300"
+              >
                 Book Now
-              </button>
+              </Link>
             </div>
 
             <div className="p-5 bg-gray-100">
@@ -64,9 +71,12 @@ const Services = () => {
                 needs efficiently and effectively.
               </p>
 
-              <button className="py-3 px-6 z-0 inline-block overflow-hidden bg-primary rounded-md text-white relative border border-transparent hover:border-primary hover:text-primary transition-all duration-300 before:absolute before:block before:top-0 before:-left-[100%] before:w-full before:h-full before:bg-white before:-z-10 hover:before:left-0 before:transition-all before:duration-300">
+              <Link
+                to={"/dashboard/book"}
+                className="py-3 px-6 z-0 inline-block overflow-hidden bg-primary rounded-md text-white relative border border-transparent hover:border-primary hover:text-primary transition-all duration-300 before:absolute before:block before:top-0 before:-left-[100%] before:w-full before:h-full before:bg-white before:-z-10 hover:before:left-0 before:transition-all before:duration-300"
+              >
                 Book Now
-              </button>
+              </Link>
             </div>
           </div>
         </main>
