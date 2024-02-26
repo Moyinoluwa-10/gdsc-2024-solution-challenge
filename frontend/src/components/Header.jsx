@@ -92,7 +92,7 @@ const Header = () => {
 
           <div className="lg:flex hidden">
             <Link
-              to={"login"}
+              to={"/login"}
               className="relative py-2 px-16 inline-block overflow-hidden rounded-full text-white bg-black border border-black transition-all duration-300 hover:bg-transparent hover:text-black"
             >
               Log In

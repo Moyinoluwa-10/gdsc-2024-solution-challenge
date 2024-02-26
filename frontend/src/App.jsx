@@ -18,6 +18,7 @@ import Signup from "./pages/Signup";
 import Settings from "./pages/Settings";
 import Support from "./pages/Support";
 import Services from "./pages/Services";
+import Booking from "./pages/Booking";
 
 function App() {
   const location = useLocation();
@@ -35,6 +36,7 @@ function App() {
           <Route path="/dashboard/settings" element={<Settings />} />
           <Route path="/dashboard/support" element={<Support />} />
           <Route path="/dashboard/services" element={<Services />} />
+          <Route path="/dashboard/book" element={<Booking />} />
           <Route path="*" element={<Error />} />
         </Routes>
       </AnimatePresence>
