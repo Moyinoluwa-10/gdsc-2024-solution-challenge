@@ -59,7 +59,7 @@ const Signup = () => {
         createdAt: serverTimestamp(),
       });
       // dispatch(loginUser(auth.currentUser));
-      navigate("/dashboard");
+      navigate("/dashboard/services");
     } catch (error) {
       console.log(error);
     }

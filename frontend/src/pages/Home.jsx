@@ -92,7 +92,7 @@ const Home = () => {
         <div className="grid md:grid-cols-3 gap-20">
           <div className="bg-gray-100 p-10">
             <p className="text-lg mb-5">
-              A game-changer for our hospital in India! Costs down, efficiency
+              A game-changer for our hospital in Ghana! Costs down, efficiency
               up. Real-time monitoring is a game-saver. Patients get
               uninterrupted care. Efficient resource use
             </p>
