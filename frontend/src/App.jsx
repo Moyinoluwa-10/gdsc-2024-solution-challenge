@@ -15,6 +15,9 @@ import Dashboard from "./pages/Dashboard";
 // framer-motion
 import { AnimatePresence } from "framer-motion";
 import Signup from "./pages/Signup";
+import Settings from "./pages/Settings";
+import Support from "./pages/Support";
+import Services from "./pages/Services";
 
 function App() {
   const location = useLocation();
@@ -29,6 +32,9 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/dashboard/settings" element={<Settings />} />
+          <Route path="/dashboard/support" element={<Support />} />
+          <Route path="/dashboard/services" element={<Services />} />
           <Route path="*" element={<Error />} />
         </Routes>
       </AnimatePresence>
