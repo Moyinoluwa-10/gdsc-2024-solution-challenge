@@ -44,7 +44,7 @@ const Home = () => {
           <br />
           At MediSync, we are dedicated to connecting hospitals with clean and
           efficient energy sources they need to run daily activities. Our
-          solutions provide access to hydro-powered companies, ensuring access
+          solutions provide access to solar-powered companies, ensuring access
           to clean, renewable, and affordable energy for the healthcare sector.
           Hospitals and health systems around the world are investing in clean,
           renewable energy to protect the health of their patients and
@@ -52,10 +52,8 @@ const Home = () => {
           resilience of their operations to disasters, and reduce energy costs
           and price volatility. Combining renewable energy with electricity
           storage can help hospitals remain operational during extreme weather
-          or other disruptions to the electric grid. Hydroelectric power, or
-          hydropower, harnesses the force of falling water to produce
-          electricity. It has a long and rich history, proving to be reliable
-          for more than a century.
+          or other disruptions to the electric grid. It has a long and rich
+          history, proving to be reliable for more than a century.
         </p>
       </section>
 
@@ -65,9 +63,9 @@ const Home = () => {
           <div className="grid md:grid-cols-2 gap-10">
             <div>
               <img src={service1} alt="" className="aspect-video rounded-md" />
-              <h4 className="font-semibold text-3xl mt-5 mb-5">Hydro Power</h4>
+              <h4 className="font-semibold text-3xl mt-5 mb-5">Solar Power</h4>
               <p className="text-xl">
-                We connect hospitals with hydro power companies, providing them
+                We connect hospitals with solar power companies, providing them
                 with clean and renewable energy sources
               </p>
             </div>
@@ -86,8 +84,8 @@ const Home = () => {
         </section>
       </div>
 
-      <section className="container p-5 py-20">
-        <h3 className="text-3xl mb-10">Testimonials</h3>
+      {/* <section className="container p-5 py-20">
+        <h3 className="text-3xl mb-10">Test Reviews</h3>
 
         <div className="grid md:grid-cols-3 gap-20">
           <div className="bg-gray-100 p-10">
@@ -119,10 +117,10 @@ const Home = () => {
             <p className="font-semibold text-right"> - Nurse Ayo</p>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="container p-5 py-20">
-        <p className="ont-medium text-3xl mb-10">In Collaboration with</p>
+        <p className="ont-medium text-3xl mb-10">Potential Partners</p>
         <div className="flex items-center justify-center gap-5">
           <img src={collab1} alt="" className="w-40" />
           <img src={collab2} alt="" className="w-40" />

@@ -14,13 +14,12 @@ const Services = () => {
                 Facilitating Access to Reliable Energy
               </h2>
               <p className="text-lg mb-5">
-                Our company specializes in connecting hydroelectric power
-                providers with healthcare facilities or companies, ensuring
-                access to a reliable and uninterrupted source of energy. By
-                leveraging the expertise and resources of hydroelectric
-                companies, we help healthcare institutions overcome energy
-                challenges and maintain essential operations, ultimately
-                improving patient care and outcomes.
+                Our company specializes in connecting solar power providers with
+                healthcare facilities or companies, ensuring access to a
+                reliable and uninterrupted source of energy. By leveraging the
+                expertise and resources of solar companies, we help healthcare
+                institutions overcome energy challenges and maintain essential
+                operations, ultimately improving patient care and outcomes.
               </p>
 
               <Link
@@ -38,11 +37,11 @@ const Services = () => {
               <p className="text-lg mb-5">
                 We are committed to promoting clean and sustainable energy
                 solutions within the healthcare sector. By facilitating
-                partnerships with hydroelectric power providers, we enable
-                healthcare facilities to transition away from polluting and
-                unreliable energy sources towards cleaner alternatives. This not
-                only reduces environmental impact but also contributes to the
-                health and well-being of communities served by these facilities.
+                partnerships with solar power providers, we enable healthcare
+                facilities to transition away from polluting and unreliable
+                energy sources towards cleaner alternatives. This not only
+                reduces environmental impact but also contributes to the health
+                and well-being of communities served by these facilities.
               </p>
 
               <Link
@@ -58,17 +57,16 @@ const Services = () => {
                 Personalized Assistance
               </h2>
               <p className="text-lg mb-5">
-                Our company offers personalized assistance in identifying
-                hydroelectric power providers that best meet the specific needs
-                of healthcare facilities. By considering factors such as
-                location, energy requirements, budget constraints, and
-                sustainability goals, we provide expert guidance and
-                recommendations to match healthcare facilities with the most
-                suitable hydroelectric power solutions. Whether it's a small
-                rural clinic or a large urban hospital, our tailored matching
-                services ensure that each healthcare facility is connected to
-                the ideal hydroelectric power provider to meet their energy
-                needs efficiently and effectively.
+                Our company offers personalized assistance in identifying solar
+                power providers that best meet the specific needs of healthcare
+                facilities. By considering factors such as location, energy
+                requirements, budget constraints, and sustainability goals, we
+                provide expert guidance and recommendations to match healthcare
+                facilities with the most suitable solar power solutions. Whether
+                it's a small rural clinic or a large urban hospital, our
+                tailored matching services ensure that each healthcare facility
+                is connected to the ideal solar power provider to meet their
+                energy needs efficiently and effectively.
               </p>
 
               <Link
