@@ -31,6 +31,11 @@ const Footer = () => {
               Contact
             </Link>
           </p>
+          <p className="mb-5">
+            <Link to={"/faqs"} className="footer-link">
+              FAQs
+            </Link>
+          </p>
         </div>
 
         <div className="lg:min-w-fit">
