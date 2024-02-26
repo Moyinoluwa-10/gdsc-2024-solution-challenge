@@ -5,6 +5,7 @@ import * as Yup from "yup";
 
 // axios
 import axios from "axios";
+import { MyTextInput } from "../form/FormComponents";
 
 const ContactForm = () => {
   return (
@@ -42,30 +43,13 @@ const ContactForm = () => {
         }}
       >
         {({ isSubmitting }) => (
-          <Form className="max-w-5xl mx-auto mb-20">
-            <div>
-              <Field
-                name="name"
-                type="text"
-                className="transition-all border border-black focus:border-2 focus:border-secondary  py-4 px-5 rounded-2xl w-full outline-none"
-                placeholder="Your Name"
-              />
-              <div className="text-red-500 text-sm">
-                <ErrorMessage name="name" />
-              </div>
-              <div>
-                <Field
-                  name="email"
-                  type="email"
-                  className="transition-all border border-black focus:border-2 focus:border-secondary  py-4 px-5 rounded-2xl w-full outline-none"
-                  placeholder="Email Address"
-                />
-                <div className="text-red-500 text-sm">
-                  <ErrorMessage name="email" />
-                </div>
-              </div>
-            </div>
-
+          <Form className="w-full p-5 px-20 flex flex-col gap-5">
+            <MyTextInput name="name" type="text" placeholder="Your Name" />
+            <MyTextInput
+              name="email"
+              type="email"
+              placeholder="Email Address"
+            />
             <div>
               <Field
                 name="message"
@@ -82,8 +66,7 @@ const ContactForm = () => {
 
             <button
               type="submit"
-              // className="uppercase py-5 px-14 md:px-20 bg-secondary disabled:bg-gray-700 disabled:cursor-not-allowed rounded-2xl text-white block mx-auto mt-10"
-              className="py-4 px-14 md:px-20 z-0 block overflow-hidden bg-secondary text-2xl  disabled:bg-gray-700 disabled:cursor-not-allowed mx-auto mt-10 rounded-md text-white relative border border-transparent hover:border-secondary hover:text-secondary transition-all duration-300 before:absolute before:block before:top-0 before:-left-[100%] before:w-full before:h-full before:bg-white before:-z-10 hover:before:left-0 before:transition-all before:duration-300"
+              className="py-4 px-14 md:px-20 z-0 block overflow-hidden bg-primary text-2xl  disabled:bg-gray-700 disabled:cursor-not-allowed mx-auto mt-10 rounded-md text-white relative border border-transparent hover:border-primary hover:text-primary transition-all duration-300 before:absolute before:block before:top-0 before:-left-[100%] before:w-full before:h-full before:bg-white before:-z-10 hover:before:left-0 before:transition-all before:duration-300"
               disabled={isSubmitting}
             >
               Send
